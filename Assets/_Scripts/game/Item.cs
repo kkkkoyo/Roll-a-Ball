@@ -9,6 +9,8 @@ public class Item : MonoBehaviour
         // 接触対象はPlayerタグですか？
         if (hit.CompareTag ("Player")) {
 
+            SoundManager.Instance.PlaySe("coin");
+
             // このコンポーネントを持つGameObjectを破棄する
             Destroy(gameObject);
         }
