@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class FollowPlayer : MonoBehaviour {
 
+
     [SerializeField] private Transform target;    // ターゲットへの参照
+//  	public Transform target;	//このような書き方でもいい
     private Vector3 offset;     // 相対座標
     void Start ()
     {
@@ -16,3 +18,12 @@ public class FollowPlayer : MonoBehaviour {
         GetComponent<Transform>().position = target.position+offset;
 	}
 }
+
+/*
+[SerializeField]とは
+Inspector上に任意のエディタを作成できる
+ほかにも種類があるので興味があったら調べてみるとよい
+
+カメラにくっついている。これがないとボールにカメラがついてこない
+
+*/

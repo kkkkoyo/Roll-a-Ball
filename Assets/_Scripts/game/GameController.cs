@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-using UnityEngine.UI;
+using UnityEngine.UI;	//てきすと関係をいじるときに必要なもの
 public class GameController : MonoBehaviour
 {
     public Text scoreLabel;
@@ -15,3 +15,11 @@ public class GameController : MonoBehaviour
         }
     }
 }
+/*
+Itemとしてタグづけている
+
+
+
+
+
+*/
