@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;	//シーン管理を行うためにこれを�
 public class DangerWall : MonoBehaviour
 {
     [SerializeField] private GameController gamecontroller;
-    private bool isFinished = false;
+//    private bool isFinished = false;
     // オブジェクトと接触した時に呼ばれるコールバック
     void OnCollisionEnter (Collision hit)
     {
