@@ -30,3 +30,17 @@ public class PlayerController : MonoBehaviour {
         return Input.acceleration.y;
     }
 }
+
+/*
+Player（ボール）に関する値を管理する
+
+ここで注目したいのは
+
+public float speed = 10
+
+である.別のスクリプトで説明したが[SerializeField]を用いないでInspectorに
+表示させる方法である.しかし,publicを用いているため,他の機密性に欠ける点に注意
+
+
+
+*/

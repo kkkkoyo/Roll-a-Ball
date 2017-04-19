@@ -23,3 +23,15 @@ public class GameController : MonoBehaviour
         return isFinished;
     }
 }
+
+
+/*
+ゲーム内のスコアを管理している
+
+Itemタグがついたものをカウントし,数を保存
+SoundManagerに関すること
+など,ゲーム内に必要な値を一手に担っている
+
+
+
+*/

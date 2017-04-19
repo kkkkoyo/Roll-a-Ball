@@ -16,3 +16,11 @@ public class Item : MonoBehaviour
         }
     }
 }
+
+/*
+PlayerとItemとの衝突が起きた際に呼ばれる
+
+Itemを破棄（ゲームからの削除）を行うことで画面から消えるようにする
+
+
+*/
