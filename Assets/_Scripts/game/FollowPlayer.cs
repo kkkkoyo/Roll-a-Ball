@@ -16,3 +16,18 @@ public class FollowPlayer : MonoBehaviour {
         GetComponent<Transform>().position = target.position+offset;
 	}
 }
+/*
+カメラがPlayer（今回はボール）を追従するようにしている
+
+ここで注目してほしいのは他のプログラムでも何回か登場している[SerializeField]
+である.
+これは,通常Inspector内に自分で新しい変数入力場を作成することはpublicでないとできないが
+これを用いることでprivateでも変数入力場を作成することができる
+
+つまり,ボールのスピードや摩擦力などをわざわざスクリプトで編集しなくても,Inspectorのところで
+値を入力することで同じ効果を生むことが出来る
+
+さらに単なる入力場だけでなくプルダウンなども作成できるため興味があればググるとよい
+
+
+*/

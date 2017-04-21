@@ -176,3 +176,15 @@ public class SoundManager : SingletonMonoBehaviour<SoundManager> {
     }
 
 }
+
+
+/*
+音楽再生に関するスクリプト
+
+ここもSingletonと同様に,音楽の再生をきちんとするためには結構大変なんだなー
+程度でよい
+
+
+
+
+*/
